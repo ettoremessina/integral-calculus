@@ -1,7 +1,7 @@
 import scipy.integrate as spi
 import numpy as np
 
-print('Double integral computed by scipy nquad')
+print('Double integral computed by SciPy nquad')
 print('Example 01')
 print('Integral of xye^-xy from y=1 to x-->+inf and from x=1 to x-->+inf')
 

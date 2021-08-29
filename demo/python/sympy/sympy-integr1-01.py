@@ -1,6 +1,6 @@
 import sympy as sp
 
-print('Single integral computed by sympy integrate(f, (x, a, b))')
+print('Single integral computed by SymPy integrate(f, (x, a, b))')
 print('Integral of 2xe^-x from x=1 to x=5')
 
 x = sp.Symbol('x')

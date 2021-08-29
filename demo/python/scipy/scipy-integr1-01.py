@@ -1,7 +1,7 @@
 import scipy.integrate as spi
 import numpy as np
 
-print('Single integral computed by scipy quad')
+print('Single integral computed by SciPy quad')
 print('Example 01')
 print('Integral of 2xe^-x from x=1 to x=5')
 

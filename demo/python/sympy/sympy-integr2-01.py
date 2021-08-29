@@ -1,6 +1,6 @@
 import sympy as sp
 
-print('Double integral computed by sympy integrate(f, (x, xa(y), xb(y)), (y, ya, yb)')
+print('Double integral computed by SymPy integrate(f, (x, xa(y), xb(y)), (y, ya, yb)')
 print('Integral of x y e^-x e^-y from y=0 to y=4 and from x=y-1 to x=y+1')
 
 x, y = sp.symbols('x y')
