@@ -2,7 +2,7 @@ import scipy.integrate as spi
 import numpy as np
 
 print('Double integral computed by SciPy nquad')
-print('Example 01')
+print('Example 2-02')
 print('Integral of xye^-xy from y=1 to x-->+inf and from x=1 to x-->+inf')
 
 integrand = lambda x, y : 2 * x * y * np.exp(-x * y)

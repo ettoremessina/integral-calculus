@@ -1,6 +1,7 @@
 import sympy as sp
 
 print('Single integral computed by SymPy integrate(f, x)')
+print('Example 1-01 via Undefined Integral')
 print('Integral of 2xe^-x from x=1 to x=5')
 
 x = sp.Symbol('x')
