@@ -1,13 +1,14 @@
 import scipy.integrate as spi
 import numpy as np
 
-print('Double integral computed by SciPy dblquad')
-print('Example 2-01')
+print('Double integral computed by SciPy nquad')
+print('Example 2-01 nquad')
 print('Integral of 2xye^-xy from y=1 to y=5 and from x=y-1 to x=y+1')
 
 integrand = lambda x, y : 2 * x * y * np.exp(-x * y)
-ya = 1.
-yb = 5.
 
-result, error = spi.dblquad(integrand, ya, yb, lambda y: y-1, lambda y: y+1)
+bounds_y = lambda : [1., 5.]
+bounds_x = lambda y : [y-1, y+1]
+
+result, error = spi.nquad(integrand, [bounds_x, bounds_y])
 print('Result is ', result, 'with error ', error)
