@@ -9,5 +9,5 @@ integrand = lambda x : 2 * x * np.exp(-x)
 a = 1.
 b = 5.
 
-result, error = spi.quad(integrand, a, b)
+result, error = spi.quadrature(integrand, a, b)
 print('Result is ', result, 'with error ', error)
