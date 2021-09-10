@@ -14,5 +14,5 @@ xs = np.arange(a, b, step)
 ys = integrand(xs)
 
 result = spi.cumulative_trapezoid(ys, xs)
-result = result[len(result)-1]
+result = result[-1]
 print('Result is ', result)
